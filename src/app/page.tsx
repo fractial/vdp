@@ -12,7 +12,7 @@ import {
 } from '@radix-ui/react-icons';
 import { useEffect, useState } from 'react';
 
-const url: URL = 'https://valorant-api.com/v1/playercards';
+const url: any = 'https://valorant-api.com/v1/playercards';
 
 export default function Home() {
   const defaultDataAmount: number = 16;
